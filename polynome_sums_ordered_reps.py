@@ -12,7 +12,7 @@ def poly_sum_ordered_reps(numbers, target_sum=0):
     """ Returns the number of ordered combinations of numbers that sum up to
     the target sum. For example, for [1,2] and 5, the number of combinations
     is 8. This implementation uses polynomes to represent different combinations.
-    THe coefficients of the polynomes are the numbers of combinations, and the
+    The coefficients of the polynomes are the numbers of combinations, and the
     powers are the sums with that number of combinations."""
 
     base_poly = base_polynome(numbers)
