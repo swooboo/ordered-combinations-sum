@@ -18,7 +18,7 @@ def poly_sum_ordered_reps(numbers, target_sum=0):
     base_poly = base_polynome(numbers)
     big_poly = poly(1, x)
     total_combinations = 0
-    for _ in range(1, target_sum+1):
+    for _ in range(target_sum):
         big_poly = big_poly * base_poly
         big_poly = big_poly.slice(0, target_sum+1)
         total_combinations += big_poly.coeff_monomial(x**target_sum)
