@@ -6,7 +6,7 @@ combinations of the numbers from the set that sum up to the target sum, order
 is significant. For example, for {1,2}, 5, there is 8 combinations.
 
 ## Solution using polynomials
-Using poolynomes to represent different sums and lengths of combinations. Each
+Using polynomes to represent different sums and lengths of combinations. Each
 polynome represents the numbers of ways to sum up to all possible sums, depending
 on the length of the combination. For each length, there is one polynome that
 will contain all the counts for each sum that's accessible through a combination.
